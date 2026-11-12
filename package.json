@@ -1,0 +1,7 @@
+{
+  "name": "cv-pdf",
+  "private": true,
+  "type": "module",
+  "scripts": { "pdf": "node export-pdf.mjs", "pdf:light": "node export-pdf.mjs light" },
+  "devDependencies": { "playwright": "^1.48.0" }
+}
