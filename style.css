@@ -61,6 +61,12 @@ p{margin:0 0 6px}
 .melanie-dance{width:96px;height:96px;margin:8px 0;background:url("assets/melanie-transparent.png") 0 0/96px 2304px no-repeat;image-rendering:pixelated;animation:melanie-dance 2.4s steps(24,end) infinite}
 @keyframes melanie-dance{to{background-position:0 -2304px}}
 
+.school{display:flex;gap:12px;align-items:center}
+.school p{margin:0}
+.school strong{font-weight:400;color:var(--ink)}
+.school-logo{flex:none;width:48px;height:48px;padding:3px;object-fit:contain;image-rendering:auto;background:#fff;border:2px solid var(--ink);box-shadow:3px 3px 0 var(--accent)}
+  .school{gap:8px}
+  .school-logo{width:36px;height:36px;padding:2px;box-shadow:2px 2px 0 var(--accent)}
 @media(max-width:640px){
   .sheet{padding:22px 16px}
   .head{flex-direction:column;align-items:flex-start}
